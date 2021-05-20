@@ -1081,7 +1081,7 @@ class Adv_Accordion extends Widget_Base
                 'aria-labelledby' => 'elementor-tab-title-' . $id_int . $tab_count,
             ]);
 
-            echo '<div class="eael-accordion-list">
+            echo '<div class="tablist-container" role="tablist"><div class="eael-accordion-list">
                 <div ' . $this->get_render_attribute_string($tab_title_setting_key) . '>';
             // toggle icon if user set position to left
             if ($settings['eael_adv_accordion_icon_show'] === 'yes' && $settings['eael_adv_accordion_toggle_icon_postion'] === '') {
